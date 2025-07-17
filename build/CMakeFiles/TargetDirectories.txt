@@ -1,0 +1,3 @@
+/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles/buildObject.dir
+/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles/edit_cache.dir
+/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles/rebuild_cache.dir
