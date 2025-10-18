@@ -1,12 +1,22 @@
 #pragma once
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <sys/types.h>
+#include <string>
 
 class Window{
   public:
-    const int WINDOW_WIDTH = 420;
-    const int WINDOW_HEIGHT = 360;
+    uint width;
+    uint height;
+    std::string title;
     GLFWwindow* window;
-    int createWIndow(int width, int height, const char* title, GLFWwindow*& window);
+
+    
+    void Close();
+    void Resize(uint width, uint height);
+
+
+    bool Init(uint width, uint height, std::string title);
+    bool IsOpen();
 };
 
