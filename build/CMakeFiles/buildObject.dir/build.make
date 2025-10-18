@@ -72,24 +72,10 @@ include CMakeFiles/buildObject.dir/flags.make
 CMakeFiles/buildObject.dir/codegen:
 .PHONY : CMakeFiles/buildObject.dir/codegen
 
-CMakeFiles/buildObject.dir/src/buffers.cpp.o: CMakeFiles/buildObject.dir/flags.make
-CMakeFiles/buildObject.dir/src/buffers.cpp.o: /home/devero11/opengl_playground/opengl-playground/src/buffers.cpp
-CMakeFiles/buildObject.dir/src/buffers.cpp.o: CMakeFiles/buildObject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/buildObject.dir/src/buffers.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/buildObject.dir/src/buffers.cpp.o -MF CMakeFiles/buildObject.dir/src/buffers.cpp.o.d -o CMakeFiles/buildObject.dir/src/buffers.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/buffers.cpp
-
-CMakeFiles/buildObject.dir/src/buffers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/buildObject.dir/src/buffers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devero11/opengl_playground/opengl-playground/src/buffers.cpp > CMakeFiles/buildObject.dir/src/buffers.cpp.i
-
-CMakeFiles/buildObject.dir/src/buffers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/buildObject.dir/src/buffers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devero11/opengl_playground/opengl-playground/src/buffers.cpp -o CMakeFiles/buildObject.dir/src/buffers.cpp.s
-
 CMakeFiles/buildObject.dir/src/main.cpp.o: CMakeFiles/buildObject.dir/flags.make
 CMakeFiles/buildObject.dir/src/main.cpp.o: /home/devero11/opengl_playground/opengl-playground/src/main.cpp
 CMakeFiles/buildObject.dir/src/main.cpp.o: CMakeFiles/buildObject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/buildObject.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/buildObject.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/buildObject.dir/src/main.cpp.o -MF CMakeFiles/buildObject.dir/src/main.cpp.o.d -o CMakeFiles/buildObject.dir/src/main.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/main.cpp
 
 CMakeFiles/buildObject.dir/src/main.cpp.i: cmake_force
@@ -100,52 +86,38 @@ CMakeFiles/buildObject.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/buildObject.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devero11/opengl_playground/opengl-playground/src/main.cpp -o CMakeFiles/buildObject.dir/src/main.cpp.s
 
-CMakeFiles/buildObject.dir/src/shaders.cpp.o: CMakeFiles/buildObject.dir/flags.make
-CMakeFiles/buildObject.dir/src/shaders.cpp.o: /home/devero11/opengl_playground/opengl-playground/src/shaders.cpp
-CMakeFiles/buildObject.dir/src/shaders.cpp.o: CMakeFiles/buildObject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/buildObject.dir/src/shaders.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/buildObject.dir/src/shaders.cpp.o -MF CMakeFiles/buildObject.dir/src/shaders.cpp.o.d -o CMakeFiles/buildObject.dir/src/shaders.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/shaders.cpp
+CMakeFiles/buildObject.dir/src/shader.cpp.o: CMakeFiles/buildObject.dir/flags.make
+CMakeFiles/buildObject.dir/src/shader.cpp.o: /home/devero11/opengl_playground/opengl-playground/src/shader.cpp
+CMakeFiles/buildObject.dir/src/shader.cpp.o: CMakeFiles/buildObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/buildObject.dir/src/shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/buildObject.dir/src/shader.cpp.o -MF CMakeFiles/buildObject.dir/src/shader.cpp.o.d -o CMakeFiles/buildObject.dir/src/shader.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/shader.cpp
 
-CMakeFiles/buildObject.dir/src/shaders.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/buildObject.dir/src/shaders.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devero11/opengl_playground/opengl-playground/src/shaders.cpp > CMakeFiles/buildObject.dir/src/shaders.cpp.i
+CMakeFiles/buildObject.dir/src/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/buildObject.dir/src/shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devero11/opengl_playground/opengl-playground/src/shader.cpp > CMakeFiles/buildObject.dir/src/shader.cpp.i
 
-CMakeFiles/buildObject.dir/src/shaders.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/buildObject.dir/src/shaders.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devero11/opengl_playground/opengl-playground/src/shaders.cpp -o CMakeFiles/buildObject.dir/src/shaders.cpp.s
+CMakeFiles/buildObject.dir/src/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/buildObject.dir/src/shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devero11/opengl_playground/opengl-playground/src/shader.cpp -o CMakeFiles/buildObject.dir/src/shader.cpp.s
 
-CMakeFiles/buildObject.dir/src/third_party/glad.c.o: CMakeFiles/buildObject.dir/flags.make
-CMakeFiles/buildObject.dir/src/third_party/glad.c.o: /home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c
-CMakeFiles/buildObject.dir/src/third_party/glad.c.o: CMakeFiles/buildObject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/buildObject.dir/src/third_party/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buildObject.dir/src/third_party/glad.c.o -MF CMakeFiles/buildObject.dir/src/third_party/glad.c.o.d -o CMakeFiles/buildObject.dir/src/third_party/glad.c.o -c /home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c
+CMakeFiles/buildObject.dir/src/tempData.cpp.o: CMakeFiles/buildObject.dir/flags.make
+CMakeFiles/buildObject.dir/src/tempData.cpp.o: /home/devero11/opengl_playground/opengl-playground/src/tempData.cpp
+CMakeFiles/buildObject.dir/src/tempData.cpp.o: CMakeFiles/buildObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/buildObject.dir/src/tempData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/buildObject.dir/src/tempData.cpp.o -MF CMakeFiles/buildObject.dir/src/tempData.cpp.o.d -o CMakeFiles/buildObject.dir/src/tempData.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/tempData.cpp
 
-CMakeFiles/buildObject.dir/src/third_party/glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buildObject.dir/src/third_party/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c > CMakeFiles/buildObject.dir/src/third_party/glad.c.i
+CMakeFiles/buildObject.dir/src/tempData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/buildObject.dir/src/tempData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devero11/opengl_playground/opengl-playground/src/tempData.cpp > CMakeFiles/buildObject.dir/src/tempData.cpp.i
 
-CMakeFiles/buildObject.dir/src/third_party/glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buildObject.dir/src/third_party/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c -o CMakeFiles/buildObject.dir/src/third_party/glad.c.s
-
-CMakeFiles/buildObject.dir/src/triangle.cpp.o: CMakeFiles/buildObject.dir/flags.make
-CMakeFiles/buildObject.dir/src/triangle.cpp.o: /home/devero11/opengl_playground/opengl-playground/src/triangle.cpp
-CMakeFiles/buildObject.dir/src/triangle.cpp.o: CMakeFiles/buildObject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/buildObject.dir/src/triangle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/buildObject.dir/src/triangle.cpp.o -MF CMakeFiles/buildObject.dir/src/triangle.cpp.o.d -o CMakeFiles/buildObject.dir/src/triangle.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/triangle.cpp
-
-CMakeFiles/buildObject.dir/src/triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/buildObject.dir/src/triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devero11/opengl_playground/opengl-playground/src/triangle.cpp > CMakeFiles/buildObject.dir/src/triangle.cpp.i
-
-CMakeFiles/buildObject.dir/src/triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/buildObject.dir/src/triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devero11/opengl_playground/opengl-playground/src/triangle.cpp -o CMakeFiles/buildObject.dir/src/triangle.cpp.s
+CMakeFiles/buildObject.dir/src/tempData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/buildObject.dir/src/tempData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devero11/opengl_playground/opengl-playground/src/tempData.cpp -o CMakeFiles/buildObject.dir/src/tempData.cpp.s
 
 CMakeFiles/buildObject.dir/src/update.cpp.o: CMakeFiles/buildObject.dir/flags.make
 CMakeFiles/buildObject.dir/src/update.cpp.o: /home/devero11/opengl_playground/opengl-playground/src/update.cpp
 CMakeFiles/buildObject.dir/src/update.cpp.o: CMakeFiles/buildObject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/buildObject.dir/src/update.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/buildObject.dir/src/update.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/buildObject.dir/src/update.cpp.o -MF CMakeFiles/buildObject.dir/src/update.cpp.o.d -o CMakeFiles/buildObject.dir/src/update.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/update.cpp
 
 CMakeFiles/buildObject.dir/src/update.cpp.i: cmake_force
@@ -159,7 +131,7 @@ CMakeFiles/buildObject.dir/src/update.cpp.s: cmake_force
 CMakeFiles/buildObject.dir/src/window.cpp.o: CMakeFiles/buildObject.dir/flags.make
 CMakeFiles/buildObject.dir/src/window.cpp.o: /home/devero11/opengl_playground/opengl-playground/src/window.cpp
 CMakeFiles/buildObject.dir/src/window.cpp.o: CMakeFiles/buildObject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/buildObject.dir/src/window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/buildObject.dir/src/window.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/buildObject.dir/src/window.cpp.o -MF CMakeFiles/buildObject.dir/src/window.cpp.o.d -o CMakeFiles/buildObject.dir/src/window.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/window.cpp
 
 CMakeFiles/buildObject.dir/src/window.cpp.i: cmake_force
@@ -170,31 +142,43 @@ CMakeFiles/buildObject.dir/src/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/buildObject.dir/src/window.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devero11/opengl_playground/opengl-playground/src/window.cpp -o CMakeFiles/buildObject.dir/src/window.cpp.s
 
+CMakeFiles/buildObject.dir/src/third_party/glad.c.o: CMakeFiles/buildObject.dir/flags.make
+CMakeFiles/buildObject.dir/src/third_party/glad.c.o: /home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c
+CMakeFiles/buildObject.dir/src/third_party/glad.c.o: CMakeFiles/buildObject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/buildObject.dir/src/third_party/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buildObject.dir/src/third_party/glad.c.o -MF CMakeFiles/buildObject.dir/src/third_party/glad.c.o.d -o CMakeFiles/buildObject.dir/src/third_party/glad.c.o -c /home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c
+
+CMakeFiles/buildObject.dir/src/third_party/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buildObject.dir/src/third_party/glad.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c > CMakeFiles/buildObject.dir/src/third_party/glad.c.i
+
+CMakeFiles/buildObject.dir/src/third_party/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buildObject.dir/src/third_party/glad.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c -o CMakeFiles/buildObject.dir/src/third_party/glad.c.s
+
 # Object files for target buildObject
 buildObject_OBJECTS = \
-"CMakeFiles/buildObject.dir/src/buffers.cpp.o" \
 "CMakeFiles/buildObject.dir/src/main.cpp.o" \
-"CMakeFiles/buildObject.dir/src/shaders.cpp.o" \
-"CMakeFiles/buildObject.dir/src/third_party/glad.c.o" \
-"CMakeFiles/buildObject.dir/src/triangle.cpp.o" \
+"CMakeFiles/buildObject.dir/src/shader.cpp.o" \
+"CMakeFiles/buildObject.dir/src/tempData.cpp.o" \
 "CMakeFiles/buildObject.dir/src/update.cpp.o" \
-"CMakeFiles/buildObject.dir/src/window.cpp.o"
+"CMakeFiles/buildObject.dir/src/window.cpp.o" \
+"CMakeFiles/buildObject.dir/src/third_party/glad.c.o"
 
 # External object files for target buildObject
 buildObject_EXTERNAL_OBJECTS =
 
-buildObject: CMakeFiles/buildObject.dir/src/buffers.cpp.o
 buildObject: CMakeFiles/buildObject.dir/src/main.cpp.o
-buildObject: CMakeFiles/buildObject.dir/src/shaders.cpp.o
-buildObject: CMakeFiles/buildObject.dir/src/third_party/glad.c.o
-buildObject: CMakeFiles/buildObject.dir/src/triangle.cpp.o
+buildObject: CMakeFiles/buildObject.dir/src/shader.cpp.o
+buildObject: CMakeFiles/buildObject.dir/src/tempData.cpp.o
 buildObject: CMakeFiles/buildObject.dir/src/update.cpp.o
 buildObject: CMakeFiles/buildObject.dir/src/window.cpp.o
+buildObject: CMakeFiles/buildObject.dir/src/third_party/glad.c.o
 buildObject: CMakeFiles/buildObject.dir/build.make
 buildObject: CMakeFiles/buildObject.dir/compiler_depend.ts
 buildObject: /usr/lib64/libglfw.so.3.4
 buildObject: CMakeFiles/buildObject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable buildObject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable buildObject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/buildObject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,33 +1,21 @@
 [
 {
   "directory": "/home/devero11/opengl_playground/opengl-playground/build",
-  "command": "/usr/bin/c++  -I/home/devero11/opengl_playground/opengl-playground/includes -I/home/devero11/opengl_playground/opengl-playground/includes/glad -I/home/devero11/opengl_playground/opengl-playground/includes/GLFW -std=gnu++17 -o CMakeFiles/buildObject.dir/src/buffers.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/buffers.cpp",
-  "file": "/home/devero11/opengl_playground/opengl-playground/src/buffers.cpp",
-  "output": "CMakeFiles/buildObject.dir/src/buffers.cpp.o"
-},
-{
-  "directory": "/home/devero11/opengl_playground/opengl-playground/build",
   "command": "/usr/bin/c++  -I/home/devero11/opengl_playground/opengl-playground/includes -I/home/devero11/opengl_playground/opengl-playground/includes/glad -I/home/devero11/opengl_playground/opengl-playground/includes/GLFW -std=gnu++17 -o CMakeFiles/buildObject.dir/src/main.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/main.cpp",
   "file": "/home/devero11/opengl_playground/opengl-playground/src/main.cpp",
   "output": "CMakeFiles/buildObject.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/devero11/opengl_playground/opengl-playground/build",
-  "command": "/usr/bin/c++  -I/home/devero11/opengl_playground/opengl-playground/includes -I/home/devero11/opengl_playground/opengl-playground/includes/glad -I/home/devero11/opengl_playground/opengl-playground/includes/GLFW -std=gnu++17 -o CMakeFiles/buildObject.dir/src/shaders.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/shaders.cpp",
-  "file": "/home/devero11/opengl_playground/opengl-playground/src/shaders.cpp",
-  "output": "CMakeFiles/buildObject.dir/src/shaders.cpp.o"
+  "command": "/usr/bin/c++  -I/home/devero11/opengl_playground/opengl-playground/includes -I/home/devero11/opengl_playground/opengl-playground/includes/glad -I/home/devero11/opengl_playground/opengl-playground/includes/GLFW -std=gnu++17 -o CMakeFiles/buildObject.dir/src/shader.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/shader.cpp",
+  "file": "/home/devero11/opengl_playground/opengl-playground/src/shader.cpp",
+  "output": "CMakeFiles/buildObject.dir/src/shader.cpp.o"
 },
 {
   "directory": "/home/devero11/opengl_playground/opengl-playground/build",
-  "command": "/usr/bin/cc  -I/home/devero11/opengl_playground/opengl-playground/includes -I/home/devero11/opengl_playground/opengl-playground/includes/glad -I/home/devero11/opengl_playground/opengl-playground/includes/GLFW  -o CMakeFiles/buildObject.dir/src/third_party/glad.c.o -c /home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c",
-  "file": "/home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c",
-  "output": "CMakeFiles/buildObject.dir/src/third_party/glad.c.o"
-},
-{
-  "directory": "/home/devero11/opengl_playground/opengl-playground/build",
-  "command": "/usr/bin/c++  -I/home/devero11/opengl_playground/opengl-playground/includes -I/home/devero11/opengl_playground/opengl-playground/includes/glad -I/home/devero11/opengl_playground/opengl-playground/includes/GLFW -std=gnu++17 -o CMakeFiles/buildObject.dir/src/triangle.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/triangle.cpp",
-  "file": "/home/devero11/opengl_playground/opengl-playground/src/triangle.cpp",
-  "output": "CMakeFiles/buildObject.dir/src/triangle.cpp.o"
+  "command": "/usr/bin/c++  -I/home/devero11/opengl_playground/opengl-playground/includes -I/home/devero11/opengl_playground/opengl-playground/includes/glad -I/home/devero11/opengl_playground/opengl-playground/includes/GLFW -std=gnu++17 -o CMakeFiles/buildObject.dir/src/tempData.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/tempData.cpp",
+  "file": "/home/devero11/opengl_playground/opengl-playground/src/tempData.cpp",
+  "output": "CMakeFiles/buildObject.dir/src/tempData.cpp.o"
 },
 {
   "directory": "/home/devero11/opengl_playground/opengl-playground/build",
@@ -40,5 +28,11 @@
   "command": "/usr/bin/c++  -I/home/devero11/opengl_playground/opengl-playground/includes -I/home/devero11/opengl_playground/opengl-playground/includes/glad -I/home/devero11/opengl_playground/opengl-playground/includes/GLFW -std=gnu++17 -o CMakeFiles/buildObject.dir/src/window.cpp.o -c /home/devero11/opengl_playground/opengl-playground/src/window.cpp",
   "file": "/home/devero11/opengl_playground/opengl-playground/src/window.cpp",
   "output": "CMakeFiles/buildObject.dir/src/window.cpp.o"
+},
+{
+  "directory": "/home/devero11/opengl_playground/opengl-playground/build",
+  "command": "/usr/bin/cc  -I/home/devero11/opengl_playground/opengl-playground/includes -I/home/devero11/opengl_playground/opengl-playground/includes/glad -I/home/devero11/opengl_playground/opengl-playground/includes/GLFW  -o CMakeFiles/buildObject.dir/src/third_party/glad.c.o -c /home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c",
+  "file": "/home/devero11/opengl_playground/opengl-playground/src/third_party/glad.c",
+  "output": "CMakeFiles/buildObject.dir/src/third_party/glad.c.o"
 }
 ]

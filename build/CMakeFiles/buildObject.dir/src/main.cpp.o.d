@@ -141,8 +141,10 @@ CMakeFiles/buildObject.dir/src/main.cpp.o: \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
  /home/devero11/opengl_playground/opengl-playground/includes/GLFW/glfw3.h \
- /home/devero11/opengl_playground/opengl-playground/src/window.h \
  /home/devero11/opengl_playground/opengl-playground/src/update.h \
- /home/devero11/opengl_playground/opengl-playground/src/triangle.h \
- /home/devero11/opengl_playground/opengl-playground/src/shaders.h \
- /home/devero11/opengl_playground/opengl-playground/src/buffers.h
+ /home/devero11/opengl_playground/opengl-playground/src/shader.h \
+ /usr/include/c++/15/fstream /usr/include/c++/15/bits/codecvt.h \
+ /usr/include/c++/15/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/15/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/15/bits/fstream.tcc \
+ /home/devero11/opengl_playground/opengl-playground/src/window.h

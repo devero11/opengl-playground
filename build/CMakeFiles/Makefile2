@@ -85,12 +85,12 @@ clean: CMakeFiles/buildObject.dir/clean
 CMakeFiles/buildObject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target buildObject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target buildObject"
 .PHONY : CMakeFiles/buildObject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/buildObject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/devero11/opengl_playground/opengl-playground/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devero11/opengl_playground/opengl-playground/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/buildObject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/devero11/opengl_playground/opengl-playground/build/CMakeFiles 0
 .PHONY : CMakeFiles/buildObject.dir/rule
@@ -102,7 +102,7 @@ buildObject: CMakeFiles/buildObject.dir/rule
 # codegen rule for target.
 CMakeFiles/buildObject.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target buildObject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/devero11/opengl_playground/opengl-playground/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target buildObject"
 .PHONY : CMakeFiles/buildObject.dir/codegen
 
 # clean rule for target.

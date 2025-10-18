@@ -129,30 +129,6 @@ buildObject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/build
 .PHONY : buildObject/fast
 
-src/buffers.o: src/buffers.cpp.o
-.PHONY : src/buffers.o
-
-# target to build an object file
-src/buffers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/buffers.cpp.o
-.PHONY : src/buffers.cpp.o
-
-src/buffers.i: src/buffers.cpp.i
-.PHONY : src/buffers.i
-
-# target to preprocess a source file
-src/buffers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/buffers.cpp.i
-.PHONY : src/buffers.cpp.i
-
-src/buffers.s: src/buffers.cpp.s
-.PHONY : src/buffers.s
-
-# target to generate assembly for a file
-src/buffers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/buffers.cpp.s
-.PHONY : src/buffers.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -177,29 +153,53 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/shaders.o: src/shaders.cpp.o
-.PHONY : src/shaders.o
+src/shader.o: src/shader.cpp.o
+.PHONY : src/shader.o
 
 # target to build an object file
-src/shaders.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/shaders.cpp.o
-.PHONY : src/shaders.cpp.o
+src/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/shader.cpp.o
+.PHONY : src/shader.cpp.o
 
-src/shaders.i: src/shaders.cpp.i
-.PHONY : src/shaders.i
+src/shader.i: src/shader.cpp.i
+.PHONY : src/shader.i
 
 # target to preprocess a source file
-src/shaders.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/shaders.cpp.i
-.PHONY : src/shaders.cpp.i
+src/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/shader.cpp.i
+.PHONY : src/shader.cpp.i
 
-src/shaders.s: src/shaders.cpp.s
-.PHONY : src/shaders.s
+src/shader.s: src/shader.cpp.s
+.PHONY : src/shader.s
 
 # target to generate assembly for a file
-src/shaders.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/shaders.cpp.s
-.PHONY : src/shaders.cpp.s
+src/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/shader.cpp.s
+.PHONY : src/shader.cpp.s
+
+src/tempData.o: src/tempData.cpp.o
+.PHONY : src/tempData.o
+
+# target to build an object file
+src/tempData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/tempData.cpp.o
+.PHONY : src/tempData.cpp.o
+
+src/tempData.i: src/tempData.cpp.i
+.PHONY : src/tempData.i
+
+# target to preprocess a source file
+src/tempData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/tempData.cpp.i
+.PHONY : src/tempData.cpp.i
+
+src/tempData.s: src/tempData.cpp.s
+.PHONY : src/tempData.s
+
+# target to generate assembly for a file
+src/tempData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/tempData.cpp.s
+.PHONY : src/tempData.cpp.s
 
 src/third_party/glad.o: src/third_party/glad.c.o
 .PHONY : src/third_party/glad.o
@@ -224,30 +224,6 @@ src/third_party/glad.s: src/third_party/glad.c.s
 src/third_party/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/third_party/glad.c.s
 .PHONY : src/third_party/glad.c.s
-
-src/triangle.o: src/triangle.cpp.o
-.PHONY : src/triangle.o
-
-# target to build an object file
-src/triangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/triangle.cpp.o
-.PHONY : src/triangle.cpp.o
-
-src/triangle.i: src/triangle.cpp.i
-.PHONY : src/triangle.i
-
-# target to preprocess a source file
-src/triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/triangle.cpp.i
-.PHONY : src/triangle.cpp.i
-
-src/triangle.s: src/triangle.cpp.s
-.PHONY : src/triangle.s
-
-# target to generate assembly for a file
-src/triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildObject.dir/build.make CMakeFiles/buildObject.dir/src/triangle.cpp.s
-.PHONY : src/triangle.cpp.s
 
 src/update.o: src/update.cpp.o
 .PHONY : src/update.o
@@ -306,21 +282,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... buildObject"
-	@echo "... src/buffers.o"
-	@echo "... src/buffers.i"
-	@echo "... src/buffers.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/shaders.o"
-	@echo "... src/shaders.i"
-	@echo "... src/shaders.s"
+	@echo "... src/shader.o"
+	@echo "... src/shader.i"
+	@echo "... src/shader.s"
+	@echo "... src/tempData.o"
+	@echo "... src/tempData.i"
+	@echo "... src/tempData.s"
 	@echo "... src/third_party/glad.o"
 	@echo "... src/third_party/glad.i"
 	@echo "... src/third_party/glad.s"
-	@echo "... src/triangle.o"
-	@echo "... src/triangle.i"
-	@echo "... src/triangle.s"
 	@echo "... src/update.o"
 	@echo "... src/update.i"
 	@echo "... src/update.s"

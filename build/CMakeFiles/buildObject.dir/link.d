@@ -2,13 +2,12 @@ buildObject: \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o \
-  CMakeFiles/buildObject.dir/src/buffers.cpp.o \
   CMakeFiles/buildObject.dir/src/main.cpp.o \
-  CMakeFiles/buildObject.dir/src/shaders.cpp.o \
-  CMakeFiles/buildObject.dir/src/third_party/glad.c.o \
-  CMakeFiles/buildObject.dir/src/triangle.cpp.o \
+  CMakeFiles/buildObject.dir/src/shader.cpp.o \
+  CMakeFiles/buildObject.dir/src/tempData.cpp.o \
   CMakeFiles/buildObject.dir/src/update.cpp.o \
   CMakeFiles/buildObject.dir/src/window.cpp.o \
+  CMakeFiles/buildObject.dir/src/third_party/glad.c.o \
   /usr/lib64/libglfw.so.3.4 \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libGL.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libdl.a \
@@ -52,19 +51,17 @@ buildObject: \
 
 /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o:
 
-CMakeFiles/buildObject.dir/src/buffers.cpp.o:
-
 CMakeFiles/buildObject.dir/src/main.cpp.o:
 
-CMakeFiles/buildObject.dir/src/shaders.cpp.o:
+CMakeFiles/buildObject.dir/src/shader.cpp.o:
 
-CMakeFiles/buildObject.dir/src/third_party/glad.c.o:
-
-CMakeFiles/buildObject.dir/src/triangle.cpp.o:
+CMakeFiles/buildObject.dir/src/tempData.cpp.o:
 
 CMakeFiles/buildObject.dir/src/update.cpp.o:
 
 CMakeFiles/buildObject.dir/src/window.cpp.o:
+
+CMakeFiles/buildObject.dir/src/third_party/glad.c.o:
 
 /usr/lib64/libglfw.so.3.4:
 
